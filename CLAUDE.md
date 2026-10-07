@@ -43,6 +43,7 @@ As the project develops, coding standards will be established here:
 # Git operations
 git status                    # Check current state
 git log --oneline -10         # View recent commits
+git diff                      # View uncommitted changes
 
 # (Additional commands will be added as the project develops)
 ```
@@ -54,6 +55,7 @@ git log --oneline -10         # View recent commits
 1. **Read before editing**: Always read files before modifying them
 2. **Understand context**: Explore related files to understand the impact of changes
 3. **Check existing patterns**: Follow established conventions in the codebase
+4. **Verify assumptions**: Don't assume file contents - read them first
 
 ### When Writing Code
 
@@ -61,6 +63,7 @@ git log --oneline -10         # View recent commits
 2. **Security first**: Never introduce vulnerabilities (XSS, SQL injection, etc.)
 3. **No secrets**: Never commit credentials, API keys, or sensitive data
 4. **Minimal changes**: Only modify what's necessary for the task
+5. **Prefer edits over rewrites**: Use targeted edits rather than full file rewrites
 
 ### Testing
 
@@ -71,8 +74,14 @@ git log --oneline -10         # View recent commits
 ### Documentation
 
 - Update relevant documentation when making changes
-- Document complex logic with inline comments only when not self-evident
+- Keep comments minimal - only explain non-obvious "why"
 - Keep this CLAUDE.md file updated as the project evolves
+
+### Pull Requests
+
+- Create descriptive PR titles (under 70 characters)
+- Include a summary of changes in the PR body
+- Reference related issues when applicable
 
 ## Project-Specific Notes
 
@@ -112,7 +121,17 @@ cd Ty
 
 (Common issues and solutions will be documented here)
 
+## Quick Reference
+
+| Task | Command/Action |
+|------|----------------|
+| Check status | `git status` |
+| View history | `git log --oneline -10` |
+| Create branch | `git checkout -b feature/name` |
+| Stage changes | `git add <files>` |
+| Commit | `git commit -m "message"` |
+
 ---
 
-*Last updated: December 2024*
+*Last updated: October 2026*
 *This document should be updated as the project evolves and new patterns are established.*
