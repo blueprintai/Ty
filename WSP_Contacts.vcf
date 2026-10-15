@@ -1,0 +1,29 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Pommerenck;Derek;;;
+FN:Derek Pommerenck
+ORG:WSP Federal Solutions
+TITLE:Senior Technical Director, Missile Defense Programs
+EMAIL;TYPE=INTERNET,WORK:derek.pommerenck@wspfedsolutions.com
+TEL;TYPE=CELL,VOICE:+1-912-655-2499
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+N:Gregory;Shane;;;
+FN:Shane Gregory
+ORG:WSP USA Solutions Inc.
+TITLE:CEO / President (Federal Solutions Business Line Lead)
+EMAIL;TYPE=INTERNET,WORK:shane.gregory@wspfedsolutions.com
+NOTE:Listed as CEO and President in WSP USA SOLUTIONS INC. corporate filings (Morristown, NJ).
+END:VCARD
+
+BEGIN:VCARD
+VERSION:3.0
+N:Hennessey;Brad;;;
+FN:Brad Hennessey
+ORG:WSP
+TITLE:Federal Power and Energy Business Line Lead
+EMAIL;TYPE=INTERNET,WORK:brad.hennessey@wsp.com
+NOTE:Formerly POWER Engineers (now WSP); PE; background in Montana / Idaho offices.
+END:VCARD
